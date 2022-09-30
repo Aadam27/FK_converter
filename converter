@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+  public class degreeConversion {
+
+      public static void main (String[] args) 
+    
+      {
+          Scanner scan = new Scanner(System.in);
+            System.out.println("Input in fahrenheit the temperature you will like to convert into kelvin: ");
+           float input = scan.nextFloat();
+        input = (float) ((input + 273.15) * 5/9);
+          System.out.println("The inputted temperature converted to Kelvin is: " + input);
+    
+    }
+
+}
